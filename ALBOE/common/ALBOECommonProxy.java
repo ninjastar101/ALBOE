@@ -26,7 +26,13 @@ return null;
 public void registerTiles(){ //For registering TileEntities
 }
 
-public void registerBlocks(){ //For registering Blocks
+public void registerBlocks(){
+	//For registering Blocks
+	
+	//conveyer
+	GameRegistry.registerBlock(ALBOE.Conveyer, "Conveyer");//Needed for all blocks
+	LanguageRegistry.addName(ALBOE.Conveyer, "Conveyer Belt");//In-game name
+
 }
 
 public void registerItems(){ //For registering Items
